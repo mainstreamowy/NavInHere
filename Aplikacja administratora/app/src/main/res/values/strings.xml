@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NavInHere Admin</string>
+    <string name="butt_add_room">Dodaj Salę</string>
+    <string name="butt_add_worker">Dodaj Pracownika</string>
+    <string name="help">"?"</string>
+</resources>

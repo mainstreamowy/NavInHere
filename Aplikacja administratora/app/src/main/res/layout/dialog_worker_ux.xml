@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="400dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginEnd="5dp"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/dialogButtonDiscard"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_horizontal"
+        android:text=" Anuluj " />
+
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_horizontal"
+        android:text=" Ok " />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Wpisz imie" />
+
+    <EditText
+        android:id="@+id/et_surename"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Wpisz nazwisko"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_degree"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_surename"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Wpisz stopień" />
+
+
+    <EditText
+        android:id="@+id/et_number"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_surename"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Wpisz numer telefonu"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/et_hour1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="17dp"
+        android:ems="10"
+        android:hint="Czas HH:MM-HH:MM"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_hour2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Czas HH:MM-HH:MM"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_hour3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Czas HH:MM-HH:MM"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/et_hour4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_number"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="15dp"
+        android:ems="10"
+        android:hint="Czas HH:MM-HH:MM"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/sp_day1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_degree"
+        android:layout_marginTop="22dp" />
+
+    <Spinner
+        android:id="@+id/sp_day2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_degree"
+        android:layout_marginTop="77dp" />
+
+    <Spinner
+        android:id="@+id/sp_day3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_degree"
+        android:layout_marginTop="129dp" />
+
+    <Spinner
+        android:id="@+id/sp_day4"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_degree"
+        android:layout_marginTop="180dp" />
+
+
+</RelativeLayout>

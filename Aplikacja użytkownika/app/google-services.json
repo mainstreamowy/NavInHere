@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "692300912289",
+    "firebase_url": "https://sceneformiandek.firebaseio.com",
+    "project_id": "sceneformiandek",
+    "storage_bucket": "sceneformiandek.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692300912289:android:17a72491341577b4",
+        "android_client_info": {
+          "package_name": "com.navigation.navin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692300912289-r9bsb3oussrg4ek3k0um3si09g1pg180.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navigation.navin",
+            "certificate_hash": "cafc121facd9f5258df9314b72966113a4e7df5e"
+          }
+        },
+        {
+          "client_id": "692300912289-dgbt2p9p32mv6030srfvpfjior2qiv07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs1fU9yyQBFBvGbbD2ZD17TU7O7MSzl1I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692300912289-dgbt2p9p32mv6030srfvpfjior2qiv07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

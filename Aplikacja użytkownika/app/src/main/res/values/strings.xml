@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NavInHere</string>
+    <string name="test">Download</string>
+    <string name="test2">Choose room</string>
+    <string name="okay_button">Start nav!</string>
+</resources>
